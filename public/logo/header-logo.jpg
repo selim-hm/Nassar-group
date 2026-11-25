@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">SuccessTrack Coaching Logo</title>
+  <desc id="desc">Dark navy graduation cap with gold growth arrow.</desc>
+  <defs>
+    <linearGradient id="navy" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d2b4e"/>
+      <stop offset="100%" stop-color="#09213a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d998"/>
+      <stop offset="100%" stop-color="#d7af4b"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(20 20)">
+    <path d="M155 150 L390 60 L605 150 L370 250 Z" fill="url(#navy)" stroke="#f4f6fb" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M150 175 L605 175 L575 274 L175 274 Z" fill="url(#navy)" stroke="#f4f6fb" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M205 275 L602 275 L602 372 L225 372 Z" fill="url(#navy)" stroke="#f4f6fb" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M220 300 L224 272 L264 272 L268 300 Z" fill="#0a2038"/>
+    <path d="M388 195 L270 270 L223 270 L350 159 Z" fill="#f4f6fb" opacity="0.92"/>
+    <path d="M333 168 L590 66 L625 112 L364 214 Z" fill="#f4f6fb" opacity="0.82"/>
+
+    <g transform="translate(125 110)">
+      <path d="M340 155 L550 45 L615 124 L420 255 Z" fill="url(#gold)" stroke="#fefefe" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M293 257 L469 114 L518 162 L341 306 Z" fill="url(#gold)" stroke="#fefefe" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M360 310 L460 203 L514 256 L410 362 Z" fill="url(#gold)" stroke="#fefefe" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M514 256 L551 291 L542 323 L500 287 Z" fill="#d7af4b"/>
+    </g>
+
+    <path d="M205 310 L165 300 L165 400 L205 410 Z" fill="#0d2b4e"/>
+    <path d="M165 300 L180 255 L196 300 Z" fill="#0d2b4e"/>
+    <path d="M176 320 C166 340 166 385 176 405 C182 392 198 386 206 388 C193 362 190 340 176 320 Z" fill="#0b1e33"/>
+    <path d="M118 302 L130 245 L152 302 Z" fill="#0d2b4e"/>
+    <path d="M130 246 L150 230 L162 274 L145 302 Z" fill="#0d2b4e"/>
+  </g>
+</svg>
