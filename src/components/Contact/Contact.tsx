@@ -5,7 +5,7 @@ import { translations, type Locale } from "@/lib/i18n";
 const contactData = {
   phone: "01061286191",
   email: "nassar.advisory.group@gmail.com",
-  address: "مول داون تاون، القاهرة، مصر",
+  address: { ar: "مول داون تاون، السادات، المنوفيه، مصر", en: "Downtown Mall, Sadat, Monufia, Egypt" },
   mapEmbedUrl:
     "https://www.google.com/maps?q=30.3726356,30.4995043&z=15&output=embed",
   mapDirectionsUrl: "https://maps.app.goo.gl/PVMcd3pCUXV2y58d7",
@@ -91,7 +91,7 @@ const Contact: FC<Props> = ({ locale }) => {
                     {t.contact.labels.address}
                   </p>
                   <p className="mt-1 font-semibold text-[var(--color-text-primary)]">
-                    {contactData.address}
+                    {contactData.address[locale]}
                   </p>
                 </div>
               </div>
